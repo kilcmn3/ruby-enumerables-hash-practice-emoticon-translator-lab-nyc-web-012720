@@ -1,5 +1,5 @@
 # require modules here
-requre "emotioncs.yml"
+require "emotioncs.yml"
 def load_library
   # code goes here
 end
