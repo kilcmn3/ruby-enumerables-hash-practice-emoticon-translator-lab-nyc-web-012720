@@ -5,7 +5,7 @@ require "pp"
 def load_library(load_yaml)
   # code goes here
  loading = YAML.load_file(load_yaml)
- {:get_meaning=>[], :get_emoticon}
+ {:get_meaning=>[], :get_emoticon => []}
 end
 
 def get_japanese_emoticon
