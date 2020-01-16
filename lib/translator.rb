@@ -4,7 +4,7 @@ require "pp"
 
 def load_library(load_yaml)
   # code goes here
- loading = YMAL.load_file(load_yaml)
+ loading = YAML.load_file(load_yaml)
 end
 
 def get_japanese_emoticon
